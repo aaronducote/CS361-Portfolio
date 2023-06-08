@@ -13,7 +13,7 @@ context = zmq.Context()
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
 
-requests = ['Lebron', '5']
+requests = ['House', '4']
 
 socket.send_string(requests[0] + "," + requests[1])
 list_of_links = socket.recv_json()

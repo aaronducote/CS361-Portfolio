@@ -1,6 +1,6 @@
-
-table, th, td {
-    border: 1px solid black;
+body {
+    font-family:monospace;
+    background-color:lightcyan;
 }
 
 
@@ -32,6 +32,7 @@ table, th, td {
 }
 
 #displayButton {
+    font-family:monospace;
     background-color: royalblue;
     color: white;
     padding: 10px 20px;

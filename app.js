@@ -26,11 +26,11 @@ app.use(express.urlencoded({extended: true}));
 
 // GET ROUTES
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));       // If URL = /, send the index.html file (home page)
 });
 
 app.get('/CSH', (req, res) => {
-    res.sendFile(path.join(__dirname, 'CSH.html'));
+    res.sendFile(path.join(__dirname, 'CSH.html'));         // If URL = /CSH, send the CSH.html file (CSH explanations)
 });
 /*
  * LISTENER
